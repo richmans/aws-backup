@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby 
+require 'aws-backup'
+def reload!
+  Dir["lib/aws-backup/*.rb"].each {|file| load "./#{file}" } 
+end
+
+
+AwsBackup::CloudBackupManager.start(ARGV)
