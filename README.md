@@ -1,6 +1,5 @@
 # AwsBackup
-
-TODO: Write a gem description
+If you want to use amazon S3 for your automated server or website backups, this gem can help you provisioning accounts on amazon S3 and IAM. It takes care of creating the bucket, users, policies and access keys.
 
 ## Installation
 
@@ -18,7 +17,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Tasks:
+  aws-backup console      # Interactive backup console
+  aws-backup help [TASK]  # Describe available tasks or one specific task
+  aws-backup list         # List the provisioned backup accounts, and indicate whether they are correctly setup in IAM
+  aws-backup provision    # Create a new backup account
+  aws-backup rotate       # Rotate keys for a backup user
+
+
 
 ## Contributing
 
