@@ -17,12 +17,12 @@ Or install it yourself as:
 
 ## Usage
 
-Tasks:
-  aws-backup console      # Interactive backup console
-  aws-backup help [TASK]  # Describe available tasks or one specific task
-  aws-backup list         # List the provisioned backup accounts, and indicate whether they are correctly setup in IAM
-  aws-backup provision    # Create a new backup account
-  aws-backup rotate       # Rotate keys for a backup user
+    Tasks:
+      aws-backup console      # Interactive backup console
+      aws-backup help [TASK]  # Describe available tasks or one specific task
+      aws-backup list         # List the provisioned backup accounts, and indicate whether they are correctly setup in IAM
+      aws-backup provision    # Create a new backup account
+      aws-backup rotate       # Rotate keys for a backup user
 
 
 
