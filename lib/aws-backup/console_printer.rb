@@ -20,7 +20,7 @@ module AwsBackup
     def ask(question)
       question += ': '
       print question, :newline => false
-      gets
+      $stdin.gets
     end
 
     def print_header(header_text)

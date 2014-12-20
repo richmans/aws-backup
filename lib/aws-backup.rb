@@ -3,6 +3,7 @@ require 'rainbow'
 require 'aws-sdk'
 require 'singleton'
 require 'irb'
+require 'rainbow/ext/string'
 
 require 'aws-backup/cloud_backup_manager'
 require 'aws-backup/backup_account'
